@@ -7,11 +7,6 @@ class Questions:
         self.is_answer = None
         self.points = int(difficulty_level) * 10
 
-    def get_points(self):
-        """ Возвращает int, количество баллов.
-        Баллы зависят от сложности: за 1 дается 10 баллов, за 5 дается 50 баллов."""
-        pass
-
     def is_correct(self, user_answer):
         """Возвращает True, если ответ пользователя совпадает
         с верным ответом иначе False."""
